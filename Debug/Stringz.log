@@ -1,0 +1,7 @@
+﻿  dllmain.cpp
+  Utility.cc
+D:\Projects\Programming\Stringz\Source\Utility.cc(274,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+     Creating library D:\Projects\Programming\Stringz\Debug\Stringz.lib and object D:\Projects\Programming\Stringz\Debug\Stringz.exp
+  Stringz.vcxproj -> D:\Projects\Programming\Stringz\Debug\Stringz.dll
+  0 File(s) copied
