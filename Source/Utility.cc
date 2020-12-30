@@ -309,4 +309,10 @@ namespace Stringz {
 		}
 		return upper;
 	}
+
+	API std::string ToString(const std::wstring & master) {
+		return std::wstring_convert< std::codecvt_utf8<wchar_t> >().to_bytes( master );
+	}
+
+	API std::wstring WString(const wchar_t * string) { return std::wstring(string); }
 }

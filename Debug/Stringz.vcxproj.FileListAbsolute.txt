@@ -1,2 +1,0 @@
-D:\Projects\Programming\Stringz\Debug\Stringz.dll
-D:\Projects\Programming\Stringz\Debug\Stringz.pdb

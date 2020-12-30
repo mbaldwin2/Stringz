@@ -108,10 +108,16 @@ namespace Stringz {
 		WString(master): converts master to std::wstring object.
 	*/
 	API std::wstring WString( const std::string & );
+	API std::wstring WString( const wchar_t * );
 
 	API std::string ToLower(const std::string &);
 	API std::string ToUpper(const std::string &);
 	API std::string ToNameCase(const std::string &);
+
+	API std::string ToString(const std::wstring &);
+
+	template<typename T>
+	std::string ToString(T const & u) { return std::to_string(u); }
 }
 
 #endif // ending STRINGZ_UTILITY //
